@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shell_OnNavigated_Bug.PageB">
+
+    <VerticalStackLayout Spacing="30" Margin="30">
+
+        <Label Text="Page B"
+               FontSize="32"
+               HorizontalOptions="Center" />
+
+        <Button Text="Go C" Clicked="GoToC" />
+
+        <Button Text="Go D" Clicked="GoToD" />
+    </VerticalStackLayout>
+</ContentPage>
